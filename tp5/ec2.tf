@@ -1,8 +1,8 @@
 #comment se connecter à Amazon
 provider "aws" {
   region     = "us-east-1"
-  access_key = "Acces_secret"
-  secret_key = "mot_de_passe"
+  access_key = "ton_acces_secret"
+  secret_key = "ton_secret_key"
 
 }
 
