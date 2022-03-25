@@ -1,8 +1,8 @@
 # Terraform mes travaux dirigés
 
-    #Les énonces :
+    
 
-  TP3 : Déployez une infrastructure dynamique
+  #TP3 : Déployez une infrastructure dynamique
 
   - L'objectif est de déployez une instance ec2 avec ip publique et un security group
   - IP publique : vous allez créer une IP publique pour votre ec2
@@ -16,13 +16,13 @@
 
 
 
-  TP4 : Déployez nginx et enregistrez l'ip
+  #TP4 : Déployez nginx et enregistrez l'ip
 
   - A partir du code du tp-3 , vous allez le modifier pour installer nginx sur votre VM
   - Vous allez récupérer l'IP ,ID de la zone de disponibilité de la VM et vous mettrez dans un fichier nommé infos_ec2.txt
 
 
-  TP5 : Remote backend
+  #TP5 : Remote backend
 
   - Créez un S3 nommé terraform-backend <votre_prenom>
   - Modifiez votre rendre du tp-4 afin d'y integrer le stockage de tfstate sur S3
