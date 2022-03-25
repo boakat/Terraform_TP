@@ -11,8 +11,8 @@ terraform{
     bucket = "terraform-backend-boidi"
     key = "eric.tfstate"
     region = "us-east-1"
-    access_key = "AKIATYX4SUNBMT3VOX6F"
-    secret_key = "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"
+    access_key = "ton_acces_secret"
+    secret_key = "ton_secret_key"
 
   }
 }
